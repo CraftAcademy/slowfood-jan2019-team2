@@ -27,7 +27,3 @@ When("I click on {string} on {string}") do |element, product_name|
     click_on element
   end
 end
-
-Then("stop") do
-  binding.pry
-end
